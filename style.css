@@ -1,0 +1,39 @@
+body{
+     background-color: hsl(257, 40%, 49%);
+
+}
+
+.main{
+    background-image: url('images/bg-desktop.svg');
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.text h1{
+    color: white;
+}
+
+.text p{
+    color: white;
+}
+
+.social{
+    display: flex;
+}
+
+.social i{
+    color: white;
+     border:  0.5px solid; 
+     font-size: x-small;
+     border-radius: 50%; 
+     height: 20px; 
+     width: 20px; 
+     display: flex; 
+     align-items: center; 
+     justify-content: center;
+    opacity: 0.7;
+
+}
